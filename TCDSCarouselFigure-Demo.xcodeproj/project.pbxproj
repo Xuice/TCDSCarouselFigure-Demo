@@ -16,6 +16,11 @@
 		843BA5F41D12A2F700515DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843BA5F21D12A2F700515DEC /* LaunchScreen.storyboard */; };
 		843BA5FF1D12A2F700515DEC /* TCDSCarouselFigure_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843BA5FE1D12A2F700515DEC /* TCDSCarouselFigure_DemoTests.m */; };
 		843BA60A1D12A2F700515DEC /* TCDSCarouselFigure_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843BA6091D12A2F700515DEC /* TCDSCarouselFigure_DemoUITests.m */; };
+		843BA61E1D12A43A00515DEC /* TCDSCarouselFigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 843BA6191D12A43A00515DEC /* TCDSCarouselFigure.m */; };
+		843BA61F1D12A43A00515DEC /* TCDSImageNameStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 843BA61B1D12A43A00515DEC /* TCDSImageNameStruct.m */; };
+		843BA6201D12A43A00515DEC /* TCDSImageStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 843BA61D1D12A43A00515DEC /* TCDSImageStruct.m */; };
+		843BA6221D12A5D900515DEC /* bad.png in Resources */ = {isa = PBXBuildFile; fileRef = 843BA6211D12A5D900515DEC /* bad.png */; };
+		843BA6251D12D23200515DEC /* TCDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843BA6241D12D23200515DEC /* TCDSViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		843BA6051D12A2F700515DEC /* TCDSCarouselFigure-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCDSCarouselFigure-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		843BA6091D12A2F700515DEC /* TCDSCarouselFigure_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCDSCarouselFigure_DemoUITests.m; sourceTree = "<group>"; };
 		843BA60B1D12A2F700515DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843BA6181D12A43A00515DEC /* TCDSCarouselFigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDSCarouselFigure.h; sourceTree = "<group>"; };
+		843BA6191D12A43A00515DEC /* TCDSCarouselFigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDSCarouselFigure.m; sourceTree = "<group>"; };
+		843BA61A1D12A43A00515DEC /* TCDSImageNameStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDSImageNameStruct.h; sourceTree = "<group>"; };
+		843BA61B1D12A43A00515DEC /* TCDSImageNameStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDSImageNameStruct.m; sourceTree = "<group>"; };
+		843BA61C1D12A43A00515DEC /* TCDSImageStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDSImageStruct.h; sourceTree = "<group>"; };
+		843BA61D1D12A43A00515DEC /* TCDSImageStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDSImageStruct.m; sourceTree = "<group>"; };
+		843BA6211D12A5D900515DEC /* bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bad.png; sourceTree = "<group>"; };
+		843BA6231D12D23200515DEC /* TCDSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDSViewController.h; sourceTree = "<group>"; };
+		843BA6241D12D23200515DEC /* TCDSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDSViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +101,7 @@
 				843BA5FD1D12A2F700515DEC /* TCDSCarouselFigure-DemoTests */,
 				843BA6081D12A2F700515DEC /* TCDSCarouselFigure-DemoUITests */,
 				843BA5DF1D12A2F700515DEC /* Products */,
+				843BA6171D12A43A00515DEC /* TCDSCarouselFigure */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,14 +120,16 @@
 			children = (
 				843BA5E41D12A2F700515DEC /* AppDelegate.h */,
 				843BA5E51D12A2F700515DEC /* AppDelegate.m */,
-				843BA5E71D12A2F700515DEC /* ViewController.h */,
-				843BA5E81D12A2F700515DEC /* ViewController.m */,
 				843BA5EA1D12A2F700515DEC /* Main.storyboard */,
 				843BA5F01D12A2F700515DEC /* Assets.xcassets */,
 				843BA5F21D12A2F700515DEC /* LaunchScreen.storyboard */,
 				843BA5F51D12A2F700515DEC /* Info.plist */,
 				843BA5ED1D12A2F700515DEC /* TCDSCarouselFigure_Demo.xcdatamodeld */,
 				843BA5E11D12A2F700515DEC /* Supporting Files */,
+				843BA6231D12D23200515DEC /* TCDSViewController.h */,
+				843BA6241D12D23200515DEC /* TCDSViewController.m */,
+				843BA5E71D12A2F700515DEC /* ViewController.h */,
+				843BA5E81D12A2F700515DEC /* ViewController.m */,
 			);
 			path = "TCDSCarouselFigure-Demo";
 			sourceTree = "<group>";
@@ -141,6 +158,20 @@
 				843BA60B1D12A2F700515DEC /* Info.plist */,
 			);
 			path = "TCDSCarouselFigure-DemoUITests";
+			sourceTree = "<group>";
+		};
+		843BA6171D12A43A00515DEC /* TCDSCarouselFigure */ = {
+			isa = PBXGroup;
+			children = (
+				843BA6181D12A43A00515DEC /* TCDSCarouselFigure.h */,
+				843BA6191D12A43A00515DEC /* TCDSCarouselFigure.m */,
+				843BA61A1D12A43A00515DEC /* TCDSImageNameStruct.h */,
+				843BA61B1D12A43A00515DEC /* TCDSImageNameStruct.m */,
+				843BA61C1D12A43A00515DEC /* TCDSImageStruct.h */,
+				843BA61D1D12A43A00515DEC /* TCDSImageStruct.m */,
+				843BA6211D12A5D900515DEC /* bad.png */,
+			);
+			path = TCDSCarouselFigure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +236,7 @@
 		843BA5D61D12A2F700515DEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TCDS;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = TCDS;
 				TargetAttributes = {
@@ -247,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843BA5F41D12A2F700515DEC /* LaunchScreen.storyboard in Resources */,
+				843BA6221D12A5D900515DEC /* bad.png in Resources */,
 				843BA5F11D12A2F700515DEC /* Assets.xcassets in Resources */,
 				843BA5EC1D12A2F700515DEC /* Main.storyboard in Resources */,
 			);
@@ -273,10 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843BA61E1D12A43A00515DEC /* TCDSCarouselFigure.m in Sources */,
 				843BA5E91D12A2F700515DEC /* ViewController.m in Sources */,
 				843BA5E61D12A2F700515DEC /* AppDelegate.m in Sources */,
+				843BA6201D12A43A00515DEC /* TCDSImageStruct.m in Sources */,
+				843BA6251D12D23200515DEC /* TCDSViewController.m in Sources */,
 				843BA5EF1D12A2F700515DEC /* TCDSCarouselFigure_Demo.xcdatamodeld in Sources */,
 				843BA5E31D12A2F700515DEC /* main.m in Sources */,
+				843BA61F1D12A43A00515DEC /* TCDSImageNameStruct.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
